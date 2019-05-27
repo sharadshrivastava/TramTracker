@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_margin">16dp</dimen>
+    <dimen name="std_short_margin">8dp</dimen>
+    <dimen name="std_large_margin">32dp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="image_size">24dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_header">18sp</dimen>
+    <dimen name="text_time_size">15sp</dimen>
+</resources>

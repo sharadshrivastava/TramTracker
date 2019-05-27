@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomeTime</string>
+    <string name="loading">Loading...</string>
+    <string name="north">North</string>
+    <string name="tram_info">Tram Information</string>
+    <string name="south">South</string>
+    <string name="to">To</string>
+    <string name="arriving">(Arriving Now)</string>
+    <string name="and">and</string>
+    <string name="network_error">Network Error</string>
+    <string name="response_error">Bad Server Response</string>
+    <string name="after_arrival">(After %1$d hours and %2$d minutes)</string>
+    <string name="after_mins">(After %1$d mins)</string>
+</resources>

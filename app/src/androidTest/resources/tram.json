@@ -1,0 +1,76 @@
+{
+  "errorMessage": null,
+  "hasError": false,
+  "hasResponse": true,
+  "responseObject": [
+    {
+      "__type": "NextPredictedRoutesCollectionInfo",
+      "AirConditioned": false,
+      "Destination": "North Richmond",
+      "DisplayAC": false,
+      "DisruptionMessage": {
+        "DisplayType": "Text",
+        "MessageCount": 0,
+        "Messages": []
+      },
+      "HasDisruption": false,
+      "HasSpecialEvent": false,
+      "HeadBoardRouteNo": "78",
+      "InternalRouteNo": 78,
+      "IsLowFloorTram": false,
+      "IsTTAvailable": true,
+      "PredictedArrivalDateTime": "/Date(1542220140000+1100)/",
+      "RouteNo": "78",
+      "SpecialEventMessage": "",
+      "TripID": 0,
+      "VehicleNo": 0
+    },
+    {
+      "__type": "NextPredictedRoutesCollectionInfo",
+      "AirConditioned": false,
+      "Destination": "North Richmond",
+      "DisplayAC": false,
+      "DisruptionMessage": {
+        "DisplayType": "Text",
+        "MessageCount": 0,
+        "Messages": []
+      },
+      "HasDisruption": false,
+      "HasSpecialEvent": false,
+      "HeadBoardRouteNo": "78",
+      "InternalRouteNo": 78,
+      "IsLowFloorTram": false,
+      "IsTTAvailable": true,
+      "PredictedArrivalDateTime": "/Date(1542221340000+1100)/",
+      "RouteNo": "78",
+      "SpecialEventMessage": "",
+      "TripID": 0,
+      "VehicleNo": 0
+    },
+    {
+      "__type": "NextPredictedRoutesCollectionInfo",
+      "AirConditioned": false,
+      "Destination": "North Richmond",
+      "DisplayAC": false,
+      "DisruptionMessage": {
+        "DisplayType": "Text",
+        "MessageCount": 0,
+        "Messages": []
+      },
+      "HasDisruption": false,
+      "HasSpecialEvent": false,
+      "HeadBoardRouteNo": "78",
+      "InternalRouteNo": 78,
+      "IsLowFloorTram": false,
+      "IsTTAvailable": true,
+      "PredictedArrivalDateTime": "/Date(1542222540000+1100)/",
+      "RouteNo": "78",
+      "SpecialEventMessage": "",
+      "TripID": 0,
+      "VehicleNo": 0
+    }
+  ],
+  "timeRequested": "/Date(1542211223358+1100)/",
+  "timeResponded": "/Date(1542211223413+1100)/",
+  "webMethodCalled": "GetNextPredictedRoutesCollection"
+}
