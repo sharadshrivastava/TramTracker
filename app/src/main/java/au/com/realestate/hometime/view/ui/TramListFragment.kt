@@ -73,7 +73,7 @@ class TramListFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
             } else {
                 binding.isLoading = false
                 Snackbar.make(binding.root, resource?.message
-                        ?: "Error", Snackbar.LENGTH_LONG).show()
+                        ?: getString(R.string.error), Snackbar.LENGTH_LONG).show()
             }
         })
     }
@@ -92,7 +92,7 @@ class TramListFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
             } else {
                 binding.isLoading = false
                 Snackbar.make(binding.root, resource?.message
-                        ?: "Error", Snackbar.LENGTH_INDEFINITE).show()
+                        ?: getString(R.string.error), Snackbar.LENGTH_INDEFINITE).show()
             }
         })
     }

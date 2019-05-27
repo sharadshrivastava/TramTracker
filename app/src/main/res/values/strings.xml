@@ -5,6 +5,7 @@
     <string name="tram_info">Tram Information</string>
     <string name="south">South</string>
     <string name="to">To</string>
+    <string name="error">Error</string>
     <string name="arriving">(Arriving Now)</string>
     <string name="and">and</string>
     <string name="network_error">Network Error</string>
