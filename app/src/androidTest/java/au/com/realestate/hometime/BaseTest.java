@@ -11,9 +11,4 @@ public class BaseTest {
         mTestRepo = TestRepository.getInstance();
         mTramsRepo = mTestRepo.getTramsRepository();
     }
-
-    public void addDelay(long delay) throws Exception {
-        Thread.sleep(delay);
-    }
-
 }
