@@ -19,6 +19,6 @@ interface TramsApi {
     companion object {
         var NORTH_CODE = "4055"
         var SOUTH_CODE = "4155"
-        var BASE_URL = "https://ws3.tramtracker.com.au"
+        var BASE_URL = "http://ws3.tramtracker.com.au"
     }
 }
