@@ -11,14 +11,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import au.com.realestate.hometime.BaseTest;
-import au.com.realestate.hometime.view.ui.TestActivity;
+import au.com.realestate.hometime.view.ui.MainActivity;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class TramsRepositoryTest extends BaseTest {
 
     @Rule
-    public ActivityTestRule<TestActivity> rule = new ActivityTestRule<>(TestActivity.class);
+    public ActivityTestRule<MainActivity> rule = new ActivityTestRule<>(MainActivity.class);
 
     @Before
     public void init() {
