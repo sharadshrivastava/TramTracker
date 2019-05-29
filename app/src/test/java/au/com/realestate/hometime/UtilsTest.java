@@ -13,8 +13,11 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.Date;
+
 import au.com.realestate.hometime.utils.Utils;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(MockitoJUnitRunner.class)
 public class UtilsTest {
@@ -26,10 +29,8 @@ public class UtilsTest {
     @Mock
     DisplayMetrics mDisplayMetrics;
 
-
-
     @Before
-    public void before(){
+    public void before() {
         MockitoAnnotations.initMocks(this);
 
         Mockito.when(mContext.getResources()).thenReturn(mResources);

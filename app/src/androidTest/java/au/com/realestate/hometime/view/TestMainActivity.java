@@ -17,18 +17,18 @@ import au.com.realestate.hometime.view.ui.MainActivity;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
-public class TestMainActivity extends BaseTest{
+public class TestMainActivity extends BaseTest {
 
     @Rule
     public ActivityTestRule<MainActivity> rule = new ActivityTestRule<>(MainActivity.class);
 
     @Before
-    public void init(){
+    public void init() {
         super.init();
     }
 
     @Test
-    public void TestFragmentLoaded() throws Exception{
+    public void TestFragmentLoaded() throws Exception {
         Fragment fragment = rule.getActivity().getSupportFragmentManager().findFragmentById(R.id.fragment_container);
         Assert.assertNotNull(fragment);
     }

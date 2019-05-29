@@ -18,9 +18,9 @@ public class TestRepository {
 
     private MockWebServer mMockWebServer;
 
-    private TestRepository(){
-        if(sTramsApi==null){
-            try{
+    private TestRepository() {
+        if (sTramsApi == null) {
+            try {
                 mMockWebServer = new MockWebServer();
                 mMockWebServer.start();
 
@@ -29,7 +29,7 @@ public class TestRepository {
                         .addConverterFactory(MoshiConverterFactory.create())
                         .build();
                 sTramsApi = retrofit.create(TramsApi.class);
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -44,20 +44,20 @@ public class TestRepository {
         return sTestRepository;
     }
 
-    public TramsRepository getTramsRepository(){
+    public TramsRepository getTramsRepository() {
         return sTramsRepository;
     }
 
-    public void shutDownServer() throws Exception{
+    public void shutDownServer() throws Exception {
         mMockWebServer.shutdown();
     }
 
-    public void setResponse(String fileName) throws Exception{
+    public void setResponse(String fileName) throws Exception {
         InputStream in = this.getClass().getClassLoader().getResourceAsStream(fileName);
         mMockWebServer.enqueue(new MockResponse().setResponseCode(200).setBody(new Buffer().readFrom(in)));
     }
 
-    public void setErrorResponse() throws Exception{
+    public void setErrorResponse() throws Exception {
         mMockWebServer.enqueue(new MockResponse().setResponseCode(400).setBody("{}"));
     }
 

@@ -44,7 +44,7 @@ public class TramsRepositoryTest extends BaseTest {
     @Test
     public void TestTramSuccess() throws Exception {
         mTestRepo.setResponse("tram.json");
-        mTestRepo.getTramsRepository().getTrams("1","abc").observe(rule.getActivity(), listResource -> {
+        mTestRepo.getTramsRepository().getTrams("1", "abc").observe(rule.getActivity(), listResource -> {
             Assert.assertEquals(Resource.Status.SUCCESS, listResource.getStatus());
         });
     }
@@ -52,7 +52,7 @@ public class TramsRepositoryTest extends BaseTest {
     @Test
     public void TestTramCount() throws Exception {
         mTestRepo.setResponse("tram.json");
-        mTestRepo.getTramsRepository().getTrams("1","abc").observe(rule.getActivity(), listResource -> {
+        mTestRepo.getTramsRepository().getTrams("1", "abc").observe(rule.getActivity(), listResource -> {
             Assert.assertEquals(3, listResource.getData().size());
         });
     }
