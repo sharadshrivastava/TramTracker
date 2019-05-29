@@ -38,7 +38,7 @@ public class TestRepository {
     public synchronized static TestRepository getInstance() {
         if (sTestRepository == null) {
             sTestRepository = new TestRepository();
-            sTramsRepository = TramsRepository.Companion.getInstance();
+            sTramsRepository = new TramsRepository();
             sTramsRepository.setTramsApi(sTramsApi);
         }
         return sTestRepository;
