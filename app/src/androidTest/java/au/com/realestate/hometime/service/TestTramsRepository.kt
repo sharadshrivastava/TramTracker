@@ -19,8 +19,7 @@ class TestTramsRepository : BaseTest() {
     var rule = ActivityTestRule(MainActivity::class.java)
 
     @Before
-    override fun setup() {
-        super.setup()
+    fun setup() {
         addDelay(UILOAD_DELAY);
     }
 

@@ -5,7 +5,6 @@ import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 
 import org.junit.Assert
-import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -20,11 +19,6 @@ class TestMainActivity : BaseTest() {
 
     @Rule @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)
-
-    @Before
-    override fun setup() {
-        super.setup()
-    }
 
     @Test
     fun testFragmentLoaded() {
