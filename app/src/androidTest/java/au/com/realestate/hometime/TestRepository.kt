@@ -26,7 +26,8 @@ class TestRepository {
     }
 
     companion object {
-        fun get(): TestRepository = TestRepository()
+        private var instance = TestRepository()
+        fun get(): TestRepository = instance
     }
 
     fun shutDownServer() {
