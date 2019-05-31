@@ -1,6 +1,7 @@
 package au.com.realestate.hometime.di
 
 import au.com.realestate.hometime.service.TramsApi
+import au.com.realestate.hometime.service.TramsRepository
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit

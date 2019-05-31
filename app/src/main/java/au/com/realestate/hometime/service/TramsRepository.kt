@@ -17,16 +17,9 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class TramsRepository @Inject constructor() {
+class TramsRepository @Inject constructor(private var tramsApi: TramsApi) {
 
     private val TAG = TramsRepository::class.java.name
-
-    @Inject
-    lateinit var tramsApi: TramsApi
-
-    init {
-        TramApp.get().component.inject(this)
-    }
 
     fun getToken(): LiveData<Resource<Token?>> {
         val data = MutableLiveData<Resource<Token?>>()
