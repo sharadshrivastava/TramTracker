@@ -9,13 +9,12 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-import au.com.realestate.hometime.BaseTest
 import au.com.realestate.hometime.R
 import au.com.realestate.hometime.view.ui.MainActivity
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class MainActivityTest : BaseTest() {
+class MainActivityTest {
 
     @Rule @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)

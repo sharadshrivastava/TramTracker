@@ -1,4 +1,4 @@
-package au.com.realestate.hometime
+package au.com.realestate.hometime.utils
 
 import android.content.Context
 import android.content.res.Resources

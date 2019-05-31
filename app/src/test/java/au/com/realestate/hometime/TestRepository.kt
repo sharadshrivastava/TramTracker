@@ -30,10 +30,6 @@ class TestRepository {
         fun get(): TestRepository = instance
     }
 
-    fun shutDownServer() {
-        mockWebServer.shutdown()
-    }
-
     fun setResponse(fileName: String) {
         val input = this.javaClass.classLoader?.getResourceAsStream(fileName)
         mockWebServer.enqueue(MockResponse().setResponseCode(200).setBody(Buffer().readFrom(input)))

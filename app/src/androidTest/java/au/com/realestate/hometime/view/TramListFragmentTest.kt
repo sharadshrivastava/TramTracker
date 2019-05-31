@@ -6,18 +6,16 @@ import android.support.test.espresso.matcher.ViewMatchers.*
 import android.support.test.filters.LargeTest
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
-import android.view.View
-import au.com.realestate.hometime.BaseTest
 import au.com.realestate.hometime.R
-import au.com.realestate.hometime.service.Resource
 import au.com.realestate.hometime.view.ui.MainActivity
-import org.hamcrest.core.AllOf.allOf
 import org.junit.*
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class TramListFragmentTest : BaseTest() {
+class TramListFragmentTest {
+
+    protected val UILOAD_DELAY = 2000L
 
     @Rule
     @JvmField
@@ -25,7 +23,7 @@ class TramListFragmentTest : BaseTest() {
 
     @Before
     fun setup() {
-        addDelay(UILOAD_DELAY)
+        Thread.sleep(UILOAD_DELAY)
     }
 
     @Test
@@ -60,19 +58,4 @@ class TramListFragmentTest : BaseTest() {
     fun testNoSouthData() {
         onView(withId(R.id.tram_list_south)).check(matches(isDisplayed()))
     }
-
-    @Test
-    fun testSnackBar() {
-        testRepo.setErrorResponse()
-        testRepo.tramsRepository.getToken().observeForever { listResource ->
-            Assert.assertEquals(Resource.Status.ERROR, listResource?.status)
-        }
-        onView(allOf<View>(withId(android.support.design.R.id.snackbar_text))).check(matches(isDisplayed()))
-    }
-
-    @After
-    fun onTestFinish() {
-        testRepo.shutDownServer()
-    }
-
 }

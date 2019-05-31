@@ -1,22 +1,12 @@
 package au.com.realestate.hometime.service
 
-import android.support.test.filters.LargeTest
-import android.support.test.rule.ActivityTestRule
-import android.support.test.runner.AndroidJUnit4
 import au.com.realestate.hometime.BaseTest
-import au.com.realestate.hometime.view.ui.MainActivity
 import org.junit.Assert
 import org.junit.Before
-import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
-@LargeTest
+
 class TramsRepositoryTest : BaseTest() {
-
-    @Rule @JvmField
-    var rule = ActivityTestRule(MainActivity::class.java)
 
     @Before
     fun setup() {
@@ -51,7 +41,7 @@ class TramsRepositoryTest : BaseTest() {
     fun testTramCount() {
         testRepo.setResponse("tram.json")
         testRepo.tramsRepository.getTrams("1", "abc").observeForever { listResource ->
-            Assert.assertEquals(3, listResource?.data!!.size.toLong())
+            Assert.assertEquals(3, listResource?.data.orEmpty().size.toLong())
         }
     }
 }
