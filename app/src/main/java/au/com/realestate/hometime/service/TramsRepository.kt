@@ -77,9 +77,4 @@ class TramsRepository @Inject constructor(private var tramsApi: TramsApi) {
     private fun handleFailure(liveData: MutableLiveData<*>, msg: String?) {
         liveData.value = Resource.error<Any>(msg, null)
     }
-
-    //This is required to set test api using mock web server.
-    fun setTramsApiService(testApi: TramsApi) {
-        tramsApi = testApi
-    }
 }
