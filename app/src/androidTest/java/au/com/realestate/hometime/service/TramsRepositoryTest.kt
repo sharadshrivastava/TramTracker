@@ -13,7 +13,7 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class TestTramsRepository : BaseTest() {
+class TramsRepositoryTest : BaseTest() {
 
     @Rule @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)
@@ -24,7 +24,7 @@ class TestTramsRepository : BaseTest() {
     }
 
     @Test
-    fun TestErrorResponse() {
+    fun testErrorResponse() {
         testRepo.setErrorResponse()
         testRepo.tramsRepository.getToken().observeForever { listResource ->
             Assert.assertEquals(Resource.Status.ERROR, listResource?.status)
@@ -32,7 +32,7 @@ class TestTramsRepository : BaseTest() {
     }
 
     @Test
-    fun TestTokenSuccess() {
+    fun testTokenSuccess() {
         testRepo.setResponse("token.json")
         testRepo.tramsRepository.getToken().observeForever { listResource ->
             Assert.assertEquals(Resource.Status.SUCCESS, listResource?.status)
@@ -40,7 +40,7 @@ class TestTramsRepository : BaseTest() {
     }
 
     @Test
-    fun TestTramSuccess() {
+    fun testTramSuccess() {
         testRepo.setResponse("tram.json")
         testRepo.tramsRepository.getTrams("1", "abc").observeForever { listResource ->
             Assert.assertEquals(Resource.Status.SUCCESS, listResource?.status)
@@ -48,7 +48,7 @@ class TestTramsRepository : BaseTest() {
     }
 
     @Test
-    fun TestTramCount() {
+    fun testTramCount() {
         testRepo.setResponse("tram.json")
         testRepo.tramsRepository.getTrams("1", "abc").observeForever { listResource ->
             Assert.assertEquals(3, listResource?.data!!.size.toLong())

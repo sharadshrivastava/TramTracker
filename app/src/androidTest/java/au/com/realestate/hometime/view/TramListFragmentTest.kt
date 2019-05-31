@@ -26,7 +26,7 @@ import org.hamcrest.core.AllOf.allOf
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class TestTramListFragment : BaseTest() {
+class TramListFragmentTest : BaseTest() {
 
     @Rule @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)
@@ -37,40 +37,40 @@ class TestTramListFragment : BaseTest() {
     }
 
     @Test
-    fun TestTramHeader() {
+    fun testTramHeader() {
         onView(withId(R.id.tram_header)).check(matches(isDisplayed()))
                 .check(matches(withText("Tram Information")))
     }
 
     @Test
-    fun TestNorthHeader() {
+    fun testNorthHeader() {
         onView(withId(R.id.tram_header_north)).check(matches(isDisplayed()))
                 .check(matches(withText("North")))
     }
 
     @Test
-    fun TestSouthHeader() {
+    fun testSouthHeader() {
         onView(withId(R.id.tram_header_south)).check(matches(isDisplayed()))
                 .check(matches(withText("South")))
     }
 
     @Test
-    fun TestNorthListLoaded() {
+    fun testNorthListLoaded() {
         onView(withId(R.id.tram_list_north)).check(matches(isDisplayed()))
     }
 
     @Test
-    fun TestSouthListLoaded() {
+    fun testSouthListLoaded() {
         onView(withId(R.id.tram_list_south)).check(matches(isDisplayed()))
     }
 
     @Test
-    fun TestNoSouthData() {
+    fun testNoSouthData() {
         onView(withId(R.id.tram_list_south)).check(matches(isDisplayed()))
     }
 
     @Test
-    fun TestSnackBar() {
+    fun testSnackBar() {
         try {
             testRepo.setErrorResponse()
             testRepo.tramsRepository.getToken().observeForever{ listResource ->

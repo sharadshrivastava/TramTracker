@@ -15,14 +15,6 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4558e35-3ea7-4311-bbf9-db03d379ecdc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java" afterDir="false" />
-    </list>
     <list id="716cd29d-b447-4ee8-af14-3f41408965ec" name="Dont Checkin" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_6_14_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_6_14_jar.xml" afterDir="false" />
@@ -35,7 +27,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+    </list>
+    <list default="true" id="e4558e35-3ea7-4311-bbf9-db03d379ecdc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TestTramsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TestTramsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,92 +68,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UtilsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java">
+      <file leaf-file-name="BaseTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="36">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestTramListFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TramsRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/utils/Utils.kt">
+      <file leaf-file-name="TramListViewModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/viewmodel/TramListViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTramsRepository.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TestTramsRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMainActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTramListFragment.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppComponent.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/AppComponent.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#42#91#0" expanded="true" />
+                <element signature="e#40#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="TramsRepository.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+            <state relative-caret-position="90">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="e#1525#1547#0" expanded="true" />
+                <element signature="e#1622#1645#0" expanded="true" />
+                <element signature="e#2638#2660#0" expanded="true" />
+                <element signature="e#2735#2758#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRepository.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceModule.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/ServiceModule.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -166,8 +163,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -2688,8 +2685,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Car.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Tokens.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Trams.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Token.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Tram.kt" />
@@ -2700,29 +2695,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/BaseListFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/BaseFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/BankApp.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/viewmodel/TramListViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/adapter/TramAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/TramListFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTestK.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivityK.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragmentK.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/AppComponent.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/ServiceModule.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/TestModule.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/service/TramsRepositoryTest.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/TestRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/BaseTest.kt" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTestk.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTestK.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepositoryK.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/TestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TestActivity.java" />
@@ -2733,12 +2718,24 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TramApp.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/utils/Utils.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepositoryK.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/viewmodel/TramListViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/ServiceModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/AppComponent.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TestTramsRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt" />
       </list>
     </option>
   </component>
@@ -2756,6 +2753,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2813,72 +2861,15 @@
               <item name="REA_Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="REA_Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="REA_Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hometime" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REA_Code" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="hometime" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2910,7 +2901,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android Instrumented Tests.TramListFragmentTest">
+    <configuration name="UtilsTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="au.com.realestate.hometime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="au.com.realestate.hometime" />
+      <option name="MAIN_CLASS_NAME" value="au.com.realestate.hometime.UtilsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilsTest.testDateFromDotNetDate" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -2933,6 +2951,10 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UtilsTest.testPxFromDp" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
@@ -3030,58 +3052,12 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
     </configuration>
-    <configuration name="TestErrorResponse()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="TestErrorResponse" />
-      <option name="CLASS_NAME" value="au.com.realestate.hometime.service.TramsRepositoryTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
-      </Profilers>
-    </configuration>
-    <configuration name="TestTramListFragment" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="TramListFragmentTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="au.com.realestate.hometime.view.TestTramListFragment" />
+      <option name="CLASS_NAME" value="au.com.realestate.hometime.view.TramListFragmentTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -3089,7 +3065,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -3135,7 +3111,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -3199,19 +3175,19 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Android Instrumented Tests.TramsRepositoryTest" />
-      <item itemvalue="Android Instrumented Tests.TestTramListFragment" />
-      <item itemvalue="Android Instrumented Tests.TestErrorResponse()" />
       <item itemvalue="Android JUnit.UtilsTest.testDateFromDotNetDate" />
       <item itemvalue="Android JUnit.UtilsTest.testPxFromDp" />
+      <item itemvalue="Android JUnit.UtilsTest" />
+      <item itemvalue="Android Instrumented Tests.TramsRepositoryTest" />
+      <item itemvalue="Android Instrumented Tests.TramListFragmentTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.TramListFragmentTest" />
+        <item itemvalue="Android Instrumented Tests.TramsRepositoryTest" />
+        <item itemvalue="Android JUnit.UtilsTest" />
         <item itemvalue="Android JUnit.UtilsTest.testPxFromDp" />
         <item itemvalue="Android JUnit.UtilsTest.testDateFromDotNetDate" />
-        <item itemvalue="Android Instrumented Tests.TestTramListFragment" />
-        <item itemvalue="Android Instrumented Tests.TramsRepositoryTest" />
-        <item itemvalue="Android Instrumented Tests.TestErrorResponse()" />
       </list>
     </recent_temporary>
   </component>
@@ -3262,39 +3238,88 @@
       <option name="project" value="LOCAL" />
       <updated>1559114348702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Unit testing done.">
+      <created>1559115289610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559115289610</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed unused code.">
+      <created>1559115409230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559115409230</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Testing code Changed to Kotlin code">
+      <created>1559200850923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559200850923</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testing code Changed to Kotlin code">
+      <created>1559203004468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559203004468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing code Changed to Kotlin code">
+      <created>1559203366224</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559203366224</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Made test repository singleton.">
+      <created>1559265362434</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559265362434</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Removed unused code.">
+      <created>1559271436847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559271436847</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 05m 39s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="UtilsTest - 2019.05.30 at 18h 02m 28s.xml">
+      <configuration name="UtilsTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 08m 10s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 11h 09m 48s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 09m 37s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 11h 11m 04s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 10m 31s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramListFragment - 2019.05.31 at 11h 11m 57s.xml">
+      <configuration name="TestTramListFragment" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 10m 42s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 11h 13m 11s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 11m 15s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramListFragment - 2019.05.31 at 11h 15m 14s.xml">
+      <configuration name="TestTramListFragment" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 11m 37s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 13h 00m 53s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 12m 44s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 13h 02m 17s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 13m 03s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 13h 02m 51s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UtilsTest_testPxFromDp - 2019.05.29 at 17h 14m 24s.xml">
-      <configuration name="UtilsTest.testPxFromDp" configurationId="AndroidJUnit" />
+    <history-entry file="TestTramsRepository - 2019.05.31 at 13h 04m 16s.xml">
+      <configuration name="TestTramsRepository" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -3308,14 +3333,14 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24484536" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33891752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33762887" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33891752" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32860824" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32860824" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.41752577" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32860824" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3297568" />
@@ -3347,7 +3372,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32860824" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="11" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.41752577" />
@@ -3361,6 +3385,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -3370,7 +3395,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Checkin" />
     <MESSAGE value="Unit testing done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit testing done." />
+    <MESSAGE value="Testing code Changed to Kotlin code" />
+    <MESSAGE value="Made test repository singleton." />
+    <MESSAGE value="Removed unused code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3399,44 +3427,8 @@
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepositoryK.kt</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -3484,7 +3476,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/models/Token.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/BaseRepository.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/adapter/BaseAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/BaseListFragment.kt" />
@@ -3589,21 +3580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/viewmodel/TramListViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/TestModule.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/AppComponent.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/mockwebserver/3.6.0/9c68d711e6c17da3a4db36c2fe4432944e7bdbf3/mockwebserver-3.6.0-sources.jar!/okhttp3/mockwebserver/MockWebServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -3618,54 +3595,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/tram.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/token.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTestk.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#44#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTestK.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepositoryK.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/tram.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/token.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTestk.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTestK.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/view/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3685,34 +3620,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TestPlaceholderActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/ServiceModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TestPlaceholderActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsApi.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -3723,26 +3635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TramApp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#373#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-131">
@@ -3750,59 +3642,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#37#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/utils/Utils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#42#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TramsRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="49">
+          <caret line="46" selection-start-line="46" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="e#1523#1524#0" expanded="true" />
             <element signature="e#1562#1563#0" expanded="true" />
@@ -3810,10 +3683,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/au/com/realestate/hometime/UtilsTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="131">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/viewmodel/TramListViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/TramApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/AppComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#40#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/di/ServiceModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/au/com/realestate/hometime/service/TramsRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#1525#1547#0" expanded="true" />
+            <element signature="e#1622#1645#0" expanded="true" />
+            <element signature="e#2638#2660#0" expanded="true" />
+            <element signature="e#2735#2758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/BaseTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestMainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/TestRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/service/TestTramsRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/au/com/realestate/hometime/view/TestTramListFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
     </entry>

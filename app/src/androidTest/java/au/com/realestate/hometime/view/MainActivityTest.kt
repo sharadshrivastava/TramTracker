@@ -15,7 +15,7 @@ import au.com.realestate.hometime.view.ui.MainActivity
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class TestMainActivity : BaseTest() {
+class MainActivityTest : BaseTest() {
 
     @Rule @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)

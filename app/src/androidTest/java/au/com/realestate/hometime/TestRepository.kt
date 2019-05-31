@@ -10,7 +10,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 class TestRepository {
 
-    var tramsRepository: TramsRepository = TramsRepository()
+    var tramsRepository: TramsRepository
     private var mockWebServer = MockWebServer()
     private var tramsApi: TramsApi
 
@@ -22,7 +22,7 @@ class TestRepository {
                 .build()
 
         tramsApi = retrofit.create(TramsApi::class.java)
-        tramsRepository.tramsApi = tramsApi
+        tramsRepository = TramsRepository(tramsApi)
     }
 
     companion object {
