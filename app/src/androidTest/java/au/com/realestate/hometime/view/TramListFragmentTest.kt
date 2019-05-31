@@ -1,34 +1,26 @@
 package au.com.realestate.hometime.view
 
+import android.support.test.espresso.Espresso.onView
+import android.support.test.espresso.assertion.ViewAssertions.matches
+import android.support.test.espresso.matcher.ViewMatchers.*
 import android.support.test.filters.LargeTest
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
-
-import org.junit.After
-import org.junit.Assert
-import org.junit.Before
-import org.junit.Rule
-import org.junit.Test
-import org.junit.runner.RunWith
-
+import android.view.View
 import au.com.realestate.hometime.BaseTest
 import au.com.realestate.hometime.R
 import au.com.realestate.hometime.service.Resource
 import au.com.realestate.hometime.view.ui.MainActivity
-
-import android.support.test.espresso.Espresso.onView
-import android.support.test.espresso.assertion.ViewAssertions.matches
-import android.support.test.espresso.matcher.ViewMatchers.isDisplayed
-import android.support.test.espresso.matcher.ViewMatchers.withId
-import android.support.test.espresso.matcher.ViewMatchers.withText
-import android.view.View
 import org.hamcrest.core.AllOf.allOf
+import org.junit.*
+import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
 class TramListFragmentTest : BaseTest() {
 
-    @Rule @JvmField
+    @Rule
+    @JvmField
     var rule = ActivityTestRule(MainActivity::class.java)
 
     @Before
@@ -71,15 +63,10 @@ class TramListFragmentTest : BaseTest() {
 
     @Test
     fun testSnackBar() {
-        try {
-            testRepo.setErrorResponse()
-            testRepo.tramsRepository.getToken().observeForever{ listResource ->
-                Assert.assertEquals(Resource.Status.ERROR, listResource?.status)
-            }
-        } catch (e: Exception) {
-            e.printStackTrace()
+        testRepo.setErrorResponse()
+        testRepo.tramsRepository.getToken().observeForever { listResource ->
+            Assert.assertEquals(Resource.Status.ERROR, listResource?.status)
         }
-
         onView(allOf<View>(withId(android.support.design.R.id.snackbar_text))).check(matches(isDisplayed()))
     }
 
